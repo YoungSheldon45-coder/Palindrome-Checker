@@ -1,0 +1,72 @@
+body {
+  width: 100%;
+  height 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #244855;
+}
+
+h1 {
+  font-family: Cambria;
+  text-align: center;
+}
+
+#main {
+  border: 1px solid black;
+  padding: 19px;
+  border-radius: 6px;
+  background-color: #E64833;
+  width: 350px
+}
+
+#instruction-text {
+  font-family: Trebuchet MS;
+  text-align: center;
+}
+
+.text-input {
+  width: 100%;
+  height: 30px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px;
+  font-family: Trebuchet MS;
+}
+
+.check-btn {
+  background-color: #244855;
+  border-radius: 7px;
+  width: 100%;
+  height: 30px;
+  color: white;
+  font-family: Trebuchet MS;
+  opacity: 0.7;
+  cursor: pointer;
+  pointer-events: none;
+}
+
+.check-btn.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.result {
+  margin-top: 12px;
+  background-color: 244855;
+  color: white;
+  border-radius: 4px;
+  padding: 7px;
+  text-align: center;
+  font-family: Trebuchet MS;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#info {
+  font-family: Trebuchet MS;
+  text-align: center;
+  padding-top: 30px;
+}
